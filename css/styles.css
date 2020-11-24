@@ -1,8 +1,121 @@
-.p {
-  color: red;
-  font-size: 20px;
+/* .site-nav. link. current { */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
 }
-.ul {
-  margin: 0;
-  padding: 0;
+ul {
+  list-style: none;
+}
+.body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+.navigation-list .link.current,
+.address-list .header-mail.current {
+  color: var(--accent-color);
+}
+
+.link,
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.link:hover,
+.link:focus,
+.header-phone:hover,
+.header-phone:focus,
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
+.address {
+  font-style: normal;
+}
+.header-phone {
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+/* <=== HERO ===> */
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.main-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.main-info-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.main-info-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* <=== our team ===> */
+.about-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.team-icon {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* <=== FOOTER ===> */
+.footer-address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
