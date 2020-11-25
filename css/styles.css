@@ -7,6 +7,9 @@
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .body {
   font-family: var(--main-font);
   font-style: normal;
@@ -31,7 +34,9 @@ ul {
 .header-phone:hover,
 .header-phone:focus,
 .header-mail:hover,
-.header-mail:focus {
+.header-mail:focus,
+.main-btn:hover,
+.main-btn:focus {
   color: var(--accent-color);
 }
 
